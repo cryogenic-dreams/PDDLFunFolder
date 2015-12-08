@@ -1,0 +1,13 @@
+(define (problem P)
+(:domain mars)
+(:objects A B C D MER)
+(:init (In A)
+	(= (battery-amount MER) 15)
+)
+(:goal (and
+		(picture C)
+		(picture B)
+		(In D)
+	)
+)
+)
